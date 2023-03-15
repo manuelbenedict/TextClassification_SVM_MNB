@@ -9,13 +9,13 @@ Programming language: Python </br>
 The dataset is prepared by lecturer, which consist of Mathematics multiple choice questions for elementary, junior high, and senior high schools. As a research assistant, one of my responsibilities is managed data with removing the duplicates data and invalid questions. Invalid questions contains the senteces or phrases which refer to tables and/or pitcure, e.g. "Perhatikan gambar berikut", "Perhatikan tabel berikut", "Dari gambar disamping", etc. Next, every data needs to be labelled. There are three labels for the question classification, i.e. easy, medium, and hard. There are a guide to label the dataset. The guide is in Bahasa Indonesia (Access the PDF with title "Labelling Guide").
 
 ## Preprocessing Data
-The dataset needs to be prepared before it will be used into the models. For the Natural Language Processing (NLP) problem in general, there are some phases for preprocessing data, i.e. removing characters (punctuation, numbers, and symbols), removing stopwords, and stemming. Stemming text in Bahasa Indonesia is supported by Sastrawi library in Python. After the preprocessing, the final is checking duplicates for once to keep the dataset variety.  
+The dataset needs to be prepared before it will be used into the models. For the Natural Language Processing (NLP) problem in general, there are some phases for preprocessing data, i.e. removing characters (punctuation, numbers, and symbols), removing stopwords, and stemming. Stemming text in Bahasa Indonesia is supported by Sastrawi library. After the preprocessing, the final is checking duplicates for once to keep the dataset variety.  
 
 ## Feature Extraction
-The feature extraction purpose is to transform the text feature into numerical feature that can be processed. This project tries two feature extractions, i.e. Bag of Words (BoW) and TF-IDF (Term Frequency-Inverse Document Frequency). The BoW is the most basic feature extraction and earliest method, which the number feature is counted of each word (token) in a document. The TF-IDF is the feature extraction which is based on word occurrence frequency in the document. Both of feature extractions are supported by Scikit Learn library in Python.
+The feature extraction purpose is to transform the text feature into numerical feature that can be processed. This project tries two feature extractions, i.e. Bag of Words (BoW) and TF-IDF (Term Frequency-Inverse Document Frequency). The BoW is the most basic feature extraction and earliest method, which the number feature is counted of each word (token) in a document. The TF-IDF is the feature extraction which is based on word occurrence frequency in the document. Both of feature extractions are supported by Scikit Learn library.
 
 ## Splitting Data
-The dataset is splitted into training data and testing data with ratio 80:20 that means 80% of training data and 20% of testing data.
+The dataset is splitted into training data and testing data with ratio 80:20 that means 80% of training data and 20% of testing data. Scikit learn library is also used for spiltting data.
 
 ## Machine Learning Models
 
