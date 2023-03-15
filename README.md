@@ -15,7 +15,7 @@ The dataset needs to be prepared before it will be used into the models. For the
 The feature extraction purpose is to transform the text feature into numerical feature that can be processed. This project tries two feature extractions, i.e. Bag of Words (BoW) and TF-IDF (Term Frequency-Inverse Document Frequency). The BoW is the most basic feature extraction and earliest method, which the number feature is counted of each word (token) in a document. The TF-IDF is the feature extraction which is based on word occurrence frequency in the document. Both of feature extractions are supported by Scikit Learn library in Python.
 
 ## Splitting Data
-
+The dataset is splitted into training data and testing data with ratio 80:20 that means 80% of training data and 20% of testing data.
 
 ## Machine Learning Models
 
