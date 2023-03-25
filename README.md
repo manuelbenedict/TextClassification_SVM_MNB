@@ -31,8 +31,6 @@ Multinomial Naïve Bayes (MNB) is the development of the Naïve Bayes model whic
 
 ## Conclusion
 Feature extraction and random state used when splitting the data affect the performance results built. TF-IDF and BoW testing, as well as random circumstances resulted in the following conclusions.
-* With the TF-IDF Vectorizer, the SVM model has higher performance, with an accuracy of 75% compared to the MNB, with an accuracy of 60.29%, in classifying Mathematics problems.
-* With the Count Vectorizer, the MNB model has a higher performance, with an accuracy of 72.06%, compared to the SVM, with an accuracy of 66.18%, in classifying Mathematics problems.
-* Overall, the SVM model with TF-IDF Vectorizer has
-the highest performance, by classifying questions
-Mathematics.
+* With TF-IDF, the SVM model has higher performance, with an accuracy of 75% compared to the MNB, with an accuracy of 60.29%, in classifying Mathematics problems.
+* With BoWr, the MNB model has a higher performance, with an accuracy of 72.06%, compared to the SVM, with an accuracy of 66.18%, in classifying Mathematics problems.
+* Overall, the SVM model with TF-IDF has the highest performance, by classifying questions Mathematics.
