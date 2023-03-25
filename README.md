@@ -27,15 +27,30 @@ classification of data based on previous data and modeling supervised first. SVM
 Multinomial Naïve Bayes (MNB) is the development of the Naïve Bayes model which produces a probability value of the frequency or number of words that appear in a sentence. This algorithm is a Naïve Bayes algorithm which is often used in text classification. This method, whose features are assumed from a simple multinomial distribution, has the main characteristic of being a strong (naïve) assumption of the independence between variables. This method also utilizes Bayes Theorem and data mining functionality, namely Naïve Bayesian Classification. MNB is able to consider the frequency of each word that appears in the document.
 
 ## Result
-SVM | Random state | #2 | #3 | #4 
---- | --- | --- | --- |--- 
- | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
---- | --- | --- | --- |--- 
- |
---- | --- | --- | --- |--- 
- |
---- | --- | --- | --- |--- 
-|
---- | --- | --- | --- |--- 
-|
+<table>
+    <thead>
+        <tr>
+            <th>Layer 1</th>
+            <th>Layer 2</th>
+            <th>Layer 3</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=4>L1 Name</td>
+            <td rowspan=2>L2 Name A</td>
+            <td>L3 Name A</td>
+        </tr>
+        <tr>
+            <td>L3 Name B</td>
+        </tr>
+        <tr>
+            <td rowspan=2>L2 Name B</td>
+            <td>L3 Name C</td>
+        </tr>
+        <tr>
+            <td>L3 Name D</td>
+        </tr>
+    </tbody>
+</table>
 ## Conclusion
