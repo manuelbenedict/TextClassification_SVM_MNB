@@ -27,7 +27,103 @@ classification of data based on previous data and modeling supervised first. SVM
 Multinomial Naïve Bayes (MNB) is the development of the Naïve Bayes model which produces a probability value of the frequency or number of words that appear in a sentence. This algorithm is a Naïve Bayes algorithm which is often used in text classification. This method, whose features are assumed from a simple multinomial distribution, has the main characteristic of being a strong (naïve) assumption of the independence between variables. This method also utilizes Bayes Theorem and data mining functionality, namely Naïve Bayesian Classification. MNB is able to consider the frequency of each word that appears in the document.
 
 ## Result
-
+<table>
+    <thead>
+        <tr>
+            <th>Model</th>
+            <th>Random state</th>
+            <th>Level</th>
+            <th>Accuracy</th>
+            <th>Precision</th>
+            <th>Recall</th>
+            <th>F-1 Score</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan=3>SVM with TF-IDF</td>
+            <td rowspan=6>5</td>
+            <td>Easy</td>
+            <td rowspan=3>75.00%</td>
+            <td>85.00%</td>
+            <td>65.00%</td>
+            <td>74.00%</td>
+        </tr>
+        <tr>
+            <td>Medium</td>
+            <td>68.00%</td>
+            <td>91.00%</td>
+            <td>78.00%</td>
+        </tr>
+        <tr>
+            <td>Hard</td>
+            <td>100.00%</td>
+            <td>44.00%</td>
+            <td>62.00%</td>
+        </tr>
+        <tr>
+            <td rowspan=3>SVM with BoW</td>
+            <td>Easy</td>
+            <td rowspan=3>66.18%</td>
+            <td>70.00%</td>
+            <td>54.00%</td>
+            <td>61.00%</td>
+        </tr>
+        <tr>
+            <td>Medium</td>
+            <td>66.00%</td>
+            <td>76.00%</td>
+            <td>70.00%</td>
+        </tr>
+        <tr>
+            <td>Hard</td>
+            <td>60.00%</td>
+            <td>67.00%</td>
+            <td>63.00%</td>
+        </tr>
+        <tr>
+            <td rowspan=3>MNB with TF-IDF</td>
+            <td rowspan=6>13</td>
+            <td>Easy</td>
+            <td rowspan=3>60.29%</td>
+            <td>88.00%</td>
+            <td>33.00%</td>
+            <td>48.00%</td>
+        </tr>
+        <tr>
+            <td>Medium</td>
+            <td>57.00%</td>
+            <td>97.00%</td>
+            <td>72.00%</td>
+        </tr>
+        <tr>
+            <td>Hard</td>
+            <td>0.00%</td>
+            <td>0.00%</td>
+            <td>0.00%</td>
+        </tr>
+        <tr>
+            <td rowspan=3>MNB with BoW</td>
+            <td>Easy</td>
+            <td rowspan=3>72.06%</td>
+            <td>75.00%</td>
+            <td>71.00%</td>
+            <td>73.00%</td>
+        </tr>
+        <tr>
+            <td>Medium</td>
+            <td>71.00%</td>
+            <td>83.00%</td>
+            <td>76.00%</td>
+        </tr>
+        <tr>
+            <td>Hard</td>
+            <td>71.00%</td>
+            <td>42.00%</td>
+            <td>53.00%</td>
+        </tr>
+    </tbody>
+</table>
 
 ## Conclusion
 Feature extraction and random state used when splitting the data affect the performance results built. TF-IDF and BoW testing, as well as random circumstances resulted in the following conclusions.
